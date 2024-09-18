@@ -7,14 +7,6 @@
     margin: 0;
 }
 
-h1, p {
-
-    text-align: left;
-    padding-inline: 100px;
-    padding: 80px;
-
-}
-
 a {
 
     text-decoration: none;
@@ -88,19 +80,37 @@ body{
 }
 
 .divMainText{
+    padding-inline: 40px;
     background-color: rgba(246, 246, 246, 1);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 80px;
+}
+
+.containerPromo{
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 36px;
+    background-color: rgba(246,246,246,1);
+    padding-top: 20px;
+
 }
 
 .divPromo {
-    
+
     border-radius: 10px;
-  
     background-color: rgb(255, 255, 255);
     border: 1px, solid rgba(10, 56, 120, 1);
     height: 552px;
     width: 254px;
     box-shadow: 5px 5px 1px 1px  rgba(10, 56, 120, 1);
-    text-align: center;
+    text-align: left;
+}
+
+.divPromo p, h1 {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
 }
 
 footer {
