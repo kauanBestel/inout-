@@ -1,0 +1,113 @@
+
+/*---------------------------HEADER----------------------------*/
+
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+h1, p {
+
+    text-align: left;
+    padding-inline: 100px;
+    padding: 80px;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+
+    background-color: rgb(255, 255, 255);
+    height: 32px;
+    position: relative;
+    padding: 30px;
+    align-items: center;
+    border-bottom: 3px solid rgba(10, 56, 120, 1); 
+    
+}
+
+.container{
+
+    display: flex;
+    justify-content:space-between;
+    padding-inline: 36px;
+    position: relative;
+
+}
+
+.logo {
+
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo img {
+
+    position: relative;
+    height: 100px;
+    width: 100px; /* nao faco a minima ideia de como a logo ficou como eu queria*/
+}
+
+.MyAccount {
+
+    border-radius: 50px;
+    border: 2px solid rgba(10, 56, 120, 1); 
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px; 
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -12px;
+    width: 160px;
+
+}
+
+.MyAccount img{
+
+    width: 30px;
+    height:30px ;
+    display: block;
+}
+
+.spanMyAccount {
+    text-align: center;
+}
+/*--------------------------BODY------------------------------*/
+body{
+
+    font-family: dosis;
+    background-color:rgb(255, 255, 255);
+}
+
+.divMainText{
+    background-color: rgba(246, 246, 246, 1);
+}
+
+.divPromo {
+    
+    border-radius: 10px;
+  
+    background-color: rgb(255, 255, 255);
+    border: 1px, solid rgba(10, 56, 120, 1);
+    height: 552px;
+    width: 254px;
+    box-shadow: 5px 5px 1px 1px  rgba(10, 56, 120, 1);
+    text-align: center;
+}
+
+footer {
+    background-color: blueviolet;
+    height: 200px;
+    margin-top: 30px;
+
+}
+
+
