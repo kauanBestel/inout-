@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family:"Dosis";
+    src: url("misc/fonts/dosis/Dosis-Medium.otf");
+}
 /*---------------------------HEADER----------------------------*/
 
 * {
@@ -48,9 +51,9 @@ header{
 }
 
 .MyAccount {
-
+    height: 30px;
     border-radius: 50px;
-    border: 2px solid rgba(10, 56, 120, 1); 
+    border: 3px solid rgba(10, 56, 120, 1); 
     background-color: rgb(255, 255, 255);
     padding: 10px 20px; 
     display: flex;
@@ -59,6 +62,7 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     margin-top: -12px;
     width: 160px;
+    
 
 }
 
@@ -69,13 +73,14 @@ header{
     display: block;
 }
 
+
 .spanMyAccount {
     text-align: center;
 }
 /*--------------------------BODY------------------------------*/
 body{
 
-    font-family: dosis;
+    font-family: "Dosis";
     background-color:rgb(255, 255, 255);
 }
 
@@ -87,16 +92,15 @@ body{
     padding: 80px;
 }
 
-.containerPromo{
+.containerCard{
     display: flex;
     justify-content: space-around;
     padding-inline: 36px;
     background-color: rgba(246,246,246,1);
-    padding-top: 20px;
 
 }
 
-.divPromo {
+.divCard {
 
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
@@ -104,20 +108,61 @@ body{
     height: 552px;
     width: 254px;
     box-shadow: 5px 5px 1px 1px  rgba(10, 56, 120, 1);
-    text-align: left;
+    text-align: center;
 }
 
-.divPromo p, h1 {
+.divCard p, h1 {
     font-size: 20px;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 2px;
 }
+
+.containerConteudoCard{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.divConteudoCard{
+
+    background-color: aquamarine;
+} 
+
+.botaoCard {
+    height: 48px;
+    width: 152px;
+    border-radius: 16px;
+    color: white;
+    background-color:  rgba(10, 56, 120, 1);
+    border: none;
+}
+
+.divBotao{
+    background-color: blueviolet;
+}
+/*---------------------------------footer-----------------------------------*/
 
 footer {
-    background-color: blueviolet;
+    background-color: rgba(10, 56, 120, 1);
     height: 200px;
     margin-top: 30px;
+    text-align: center;
 
 }
 
+.containerFooter{
+
+    display: flex;
+    justify-content:space-between;
+    padding-inline: 16px;
+
+}
+
+.divFooter {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
 
