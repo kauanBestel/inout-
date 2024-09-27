@@ -1,8 +1,7 @@
 .container {
     display: flex;
     flex-direction: row;  
-    padding-top: 20px;
-    background-color: rgb(219, 162, 91);
+    height: 100%;
 }
 
 .center{
@@ -12,19 +11,53 @@
 }
 
 .squareLeft {
-    background-color: blue;
+    background-color: rgba(10, 56, 120, 1);
     height: 620px;
     width: 50%;
+}
+img {
+    justify-content: center;
+    align-self: center;
+    height: 105px;
+    width: 105px;
 }
 
 .squareRight {
-    background-color: red;
+    background-color: rgba(232, 229, 229, 1);
     height: 620px;
     width: 50%;
 }
 
-.inoutCountainer{
+.inoutCountainerleft{
     height: 300px;
     width: 300px;
     background-color: beige;
+    border-radius: 10%;
 }
+
+.inoutCountainerRight{
+    height: 56%;
+    width: 56%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 1px 1px  rgba(10, 56, 120, 1);
+    border-radius: 10%;
+  
+
+}
+
+.divInoutLogo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:30px
+
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
